@@ -1,0 +1,26 @@
+/* Skills.css */
+.skills {
+    background-color: #A3A398;
+    color: #fff;
+    padding: 2rem;
+  }
+  
+  .skills h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .skills ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  .skill-bar input{
+      width:100% ;
+      
+  }
+  
+  .skills li {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  

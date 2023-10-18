@@ -1,0 +1,38 @@
+.App{
+  background: rgba(255, 255, 255, 0.2); /* لون الخلفية الزجاجي */
+  border-radius: 10px; /* حدود مستديرة */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* ظل دقيق */
+  backdrop-filter: blur(10px); /* تمويه خلفي زجاجي (قم بتعديل قيمة الزواية حسب الاحتياج) */
+  border: 1px solid rgba(255, 255, 255, 0.2); /* حدود خفيفة */
+  display: inline-block; /* للسماح بالتنسيق السليم للعنصر داخل الحاوية */
+    border: 1px solid #3d3d3d;
+    margin: 200px 200px;
+    padding: 25px 15px;
+    width: 60%;
+  }
+  
+  .to-do-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .to-do-container ul li {
+    width: 170px;
+    overflow-wrap: break-word;
+    list-style-type: "👉";
+    cursor: pointer;
+  }
+  
+  .done {
+    text-decoration: line-through;
+  }
+  
+  .item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .trash {
+    cursor: pointer;
+  }

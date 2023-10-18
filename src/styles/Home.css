@@ -1,0 +1,25 @@
+/* Home.css */
+.home {
+    background-color: #fffff7;
+    color: #333; /* Text color for readability */
+    padding: 2rem;
+    text-align: center;
+    height: auto;
+  }
+  
+  .home h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .home p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .home img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+  }
+  
